@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+    border:solid;
+    border-color:pink;
+    
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: first baseline;
+}
+.body{
+background-color: rebeccapurple;
+margin-right:90px;
+border:30px;
+border-color: rgba(26, 24, 24, 0);
+
+}
+
+p,h2,h1{
+    text-align: center;
+}
